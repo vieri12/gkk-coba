@@ -5,6 +5,8 @@ const navmenu = document.querySelector('#nav-menu');
 hamburger.addEventListener('click', function () {
     hamburger.classList.toggle('hamburger-active');
     navmenu.classList.toggle('hidden');
+    hamburger.classList.toggle('pr-2');
+    hamburger.classList.toggle('pr-');
 });
 
 //navbar
