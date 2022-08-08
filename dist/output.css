@@ -647,6 +647,10 @@ video {
   margin-bottom: 2.25rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -665,10 +669,6 @@ video {
 
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
 }
 
 .mr-4 {
@@ -731,16 +731,16 @@ video {
   width: 20rem;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .w-9 {
   width: 2.25rem;
 }
 
-.w-20 {
-  width: 5rem;
-}
-
-.w-1\/2 {
-  width: 50%;
+.w-2\/3 {
+  width: 66.666667%;
 }
 
 .max-w-\[250px\] {
@@ -961,12 +961,12 @@ video {
   padding-top: 8rem;
 }
 
-.pl-1 {
-  padding-left: 0.25rem;
-}
-
 .pb-3 {
   padding-bottom: 0.75rem;
+}
+
+.pl-1 {
+  padding-left: 0.25rem;
 }
 
 .pt-14 {
@@ -1001,12 +1001,16 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.pt-1 {
-  padding-top: 0.25rem;
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 
-.pb-4 {
-  padding-bottom: 1rem;
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
 }
 
 .text-center {
@@ -1041,6 +1045,11 @@ video {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-semibold {
@@ -1263,10 +1272,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:w-\[80\%\] {
-    width: 80%;
-  }
-
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -1286,12 +1291,12 @@ video {
     margin-top: 2rem;
   }
 
-  .lg\:mb-3 {
-    margin-bottom: 0.75rem;
-  }
-
   .lg\:mb-10 {
     margin-bottom: 2.5rem;
+  }
+
+  .lg\:mb-3 {
+    margin-bottom: 0.75rem;
   }
 
   .lg\:mb-0 {
@@ -1334,20 +1339,12 @@ video {
     width: 20rem;
   }
 
-  .lg\:w-60 {
-    width: 15rem;
-  }
-
   .lg\:w-1\/3 {
     width: 33.333333%;
   }
 
   .lg\:w-2\/3 {
     width: 66.666667%;
-  }
-
-  .lg\:w-\[80\%\] {
-    width: 80%;
   }
 
   .lg\:max-w-full {
@@ -1409,6 +1406,10 @@ video {
     padding-bottom: 1.25rem;
   }
 
+  .lg\:pl-1 {
+    padding-left: 0.25rem;
+  }
+
   .lg\:pt-28 {
     padding-top: 7rem;
   }
@@ -1429,8 +1430,8 @@ video {
     padding-bottom: 0px;
   }
 
-  .lg\:pl-1 {
-    padding-left: 0.25rem;
+  .lg\:pb-4 {
+    padding-bottom: 1rem;
   }
 
   .lg\:text-lg {
