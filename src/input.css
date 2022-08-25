@@ -40,3 +40,7 @@
 .text-nav {
     font-family: 'Inter', sans-serif;
 }
+
+.about-garis {
+    @apply w-[300px] h-[5px] ml-[1rem] mb-4 md:ml-[2.5rem] md:w-[600px] md:mb-6 lg:w-[900px] lg:ml-[5.5rem] lg:mb-16 block bg-primary transition duration-300 ease-in-out
+}
