@@ -3,44 +3,49 @@
 @tailwind utilities;
 
 .text-title {
-    font-family: IBM Plex Serif;
-    filter: drop-shadow(3px 3px 1px #c6c6ca);
+  font-family: IBM Plex Serif;
+  filter: drop-shadow(3px 3px 1px #c6c6ca);
 }
 
 .text-ibm {
-    font-family: IBM Plex Serif;
+  font-family: IBM Plex Serif;
 }
 
 .navbar-fixed {
-    @apply fixed z-[9999] bg-white bg-opacity-70;
-    backdrop-filter: blur(5px);
-    box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.2);
+  @apply fixed z-[9999] bg-white bg-opacity-70;
+  backdrop-filter: blur(5px);
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.2);
 }
 
 .home-garis {
-    @apply w-[900px] h-[5px] ml-[5rem] mb-20 block bg-primary transition duration-300 ease-in-out
+  @apply w-[900px] h-[5px] ml-[5rem] mb-20 block bg-primary transition duration-300 ease-in-out;
 }
 
 .hamburger-line {
-    @apply w-[30px] h-[2px] my-2 block bg-slate-900 transition duration-300 ease-in-out
+  @apply w-[30px] h-[2px] my-2 block bg-slate-900 transition duration-300 ease-in-out;
 }
 
-.hamburger-active>span:nth-child(1) {
-    @apply rotate-45 bg-red-400;
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45 bg-red-400;
 }
 
-.hamburger-active>span:nth-child(2) {
-    @apply scale-0;
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0;
 }
 
-.hamburger-active>span:nth-child(3) {
-    @apply -rotate-45 bg-red-400;
+.hamburger-active > span:nth-child(3) {
+  @apply -rotate-45 bg-red-400;
 }
 
 .text-nav {
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
+}
+
+.list-angka {
+  list-style-type: decimal;
 }
 
 .about-garis {
-    @apply w-[300px] h-[5px] ml-[1rem] mb-4 md:ml-[2.5rem] md:w-[600px] md:mb-6 lg:w-[900px] lg:ml-[5.5rem] lg:mb-16 block bg-primary transition duration-300 ease-in-out
+  @apply w-[300px] h-[5px] ml-[1rem] mb-4 md:ml-[2.5rem] md:w-[600px] md:mb-6 lg:w-[900px] lg:ml-[5.5rem] lg:mb-16 block bg-primary transition duration-300 ease-in-out;
 }
+

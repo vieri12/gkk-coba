@@ -12,6 +12,7 @@ hamburger.addEventListener('click', function () {
 //navbar
 window.onscroll = function () {
     const header = document.querySelector('header');
+
     const fixednav = header.offsetTop;
     if (window.pageYOffset > fixednav) {
         header.classList.add('navbar-fixed');
@@ -19,3 +20,19 @@ window.onscroll = function () {
         header.classList.remove('navbar-fixed');
     }
 };
+//artikel
+
+const artikel = document.querySelector('#artikel');
+const artikeladd = document.querySelector('#artikeladd1');
+const artikeladd2 = document.querySelector('#artikeladd2');
+const artikeladd3 = document.querySelector('#artikeladd3');
+const arrowheader = document.querySelector('#arrowheader');
+artikel.addEventListener('click', function () {
+    artikeladd1.classList.toggle('hidden');
+    artikeladd2.classList.toggle('hidden'); 
+    artikeladd3.classList.toggle('hidden');
+    artikeladd1.classList.toggle('block');
+    artikeladd2.classList.toggle('block');
+    artikeladd3.classList.toggle('block');
+    arrowheader.classList.toggle('rotate-180');
+}); 
