@@ -763,10 +763,6 @@ video {
   height: 10rem;
 }
 
-.h-auto {
-  height: auto;
-}
-
 .h-60 {
   height: 15rem;
 }
@@ -1628,10 +1624,6 @@ video {
     margin-bottom: 0.75rem;
   }
 
-  .md\:mb-5 {
-    margin-bottom: 1.25rem;
-  }
-
   .md\:block {
     display: block;
   }
@@ -1678,10 +1670,6 @@ video {
 
   .md\:w-96 {
     width: 24rem;
-  }
-
-  .md\:w-80 {
-    width: 20rem;
   }
 
   .md\:w-1\/2 {
